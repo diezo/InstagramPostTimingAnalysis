@@ -10,8 +10,8 @@ END = "\033[0m"
 target = sys.argv[1]
 load_following = len(sys.argv) > 2 and sys.argv[2] == "load"
 
-login_username = "heysoniiii"
-login_password = "7aczLPg$yBziAF3qqLa6xX&qDdf?YGf@5SM$DoQQ"
+login_username = "<todo>"
+login_password = "<todo>"
 
 print(f"{BLUE}Authenticating as {login_username}...{END}")
 host = AutoHost(login_username, login_password, file="session.txt")
